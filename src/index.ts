@@ -21,4 +21,5 @@ export {
   cleanupApolloState,
   gql,
 };
-export * from './browser';
+
+import { MutationOpts } from './browser';
