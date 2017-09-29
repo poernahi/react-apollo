@@ -1,13 +1,13 @@
 import { Component, createElement } from 'react';
 import * as PropTypes from 'prop-types';
 
-const pick = require('lodash.pick');
+import pick from 'lodash.pick'
 import shallowEqual from './shallowEqual';
 
-const invariant = require('invariant');
-const assign = require('object-assign');
+import invariant from 'invariant';
+import assign from 'object-assign';
 
-const hoistNonReactStatics = require('hoist-non-react-statics');
+import hoistNonReactStatics from 'hoist-non-react-statics';
 
 import ApolloClient, {
   ObservableQuery,

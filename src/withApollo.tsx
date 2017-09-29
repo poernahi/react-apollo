@@ -6,10 +6,10 @@ import {
 } from 'react';
 import * as PropTypes from 'prop-types';
 
-const invariant = require('invariant');
-const assign = require('object-assign');
+import invariant from 'invariant';
+import assign from 'object-assign';
 
-const hoistNonReactStatics = require('hoist-non-react-statics');
+import hoistNonReactStatics from 'hoist-non-react-statics';
 
 import ApolloClient, {
   ObservableQuery,

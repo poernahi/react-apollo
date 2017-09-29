@@ -7,7 +7,7 @@ import { Store } from 'redux';
 import ApolloClient, { ApolloStore } from 'apollo-client';
 import QueryRecyclerProvider from './QueryRecyclerProvider';
 
-const invariant = require('invariant');
+import invariant from 'invariant';
 
 export interface ProviderProps {
   store?: Store<any>;

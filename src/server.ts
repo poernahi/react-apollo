@@ -6,7 +6,7 @@ import {
 } from 'react';
 import * as ReactDOM from 'react-dom/server';
 import ApolloClient, { ApolloQueryResult } from 'apollo-client';
-const assign = require('object-assign');
+import assign from 'object-assign';
 
 export interface Context {
   client?: ApolloClient;
